@@ -1,12 +1,16 @@
 var fs 	= require("fs");
 var jsHint = require("jsHint");
-var fs = [];
+var files = [];
 
 module.exports = staticErrs(location, function(err, cb) {
 	
 	// Get list of files
-	process.argv.forEach(function(val, index, array) {
-		files.push(val);
+	fs.readdir(location, function(err, assets) {
+		if (err) return;
+		assets.forEach(function(f) {
+			//console.log('Files: ' + f);
+			files.push(f);
+		});
 	});
 
 	for(var i=2; i<files.length; i++) {
