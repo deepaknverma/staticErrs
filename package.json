@@ -1,0 +1,36 @@
+{
+  "name": "staticerrs",
+  "version": "1.0.0",
+  "description": "A simple node wrapper using jshint to find syntax error.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/deepaknverma/staticErrs.git"
+  },
+  "dependencies": {
+    "jshint": "2.8.0",
+    "lodash": "3.10.1",
+    "through2": "2.0.0",
+    "errs": "0.3.2"
+  },
+  "keywords": [
+    "jshint",
+    "errors",
+    "syntax",
+    "errors",
+    "log",
+    "errors"
+  ],
+  "author": "Deepak Verma <info@deepakverma.com.au> (http://www.deepakverma.com.au)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deepaknverma/staticErrs/issues"
+  },
+  "homepage": "https://github.com/deepaknverma/staticErrs#readme"
+}
