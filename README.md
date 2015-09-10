@@ -15,6 +15,7 @@ A  simple node wrapper using jshint to find syntax error.
 			console.log(data);
 		});
 	
+
 2. If no location passed, method will look for all the folders 	present in the root level.
 
 		var staticErrs = require('./lib/staticerrs.js');
